@@ -25,3 +25,7 @@ lista2.sort() # Ordena la lista (solo funciona con elementos comparables)
 
 # sublistas (slicing)
 sublista = lista2[1:3] # Desde el índice 1 hasta el 3 (sin incluir el 3)
+
+# lists comprehension
+cuadrados = [x**2 for x in range(5)] # Crea una lista de los cuadrados de los números del 0 al 4
+print(cuadrados) # [0, 1, 4, 9, 16]
